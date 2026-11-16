@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dyeing *.css
+recursive-include dyeing *.csv
+recursive-include dyeing *.html
+recursive-include dyeing *.ico
+recursive-include dyeing *.js
+recursive-include dyeing *.json
+recursive-include dyeing *.md
+recursive-include dyeing *.png
+recursive-include dyeing *.py
+recursive-include dyeing *.svg
+recursive-include dyeing *.txt
+recursive-exclude dyeing *.pyc
